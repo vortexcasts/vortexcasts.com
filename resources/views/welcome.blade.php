@@ -39,10 +39,8 @@
                 </div>
             @endif
 
-            <div class="content">
-                <div class="title m-b-md">
-                    VortexCasts
-                </div>
+            <div class="text-red-400 text-2xl text-center">
+                VortexCasts
             </div>
         </div>
     </body>
