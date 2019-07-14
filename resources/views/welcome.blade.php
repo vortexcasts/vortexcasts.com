@@ -40,7 +40,7 @@
         </script>
     </head>
     <body>
-        <div class="flex-center position-ref full-height" id="app">
+        <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
                 <div class="top-right links">
                     @auth
@@ -55,8 +55,8 @@
                 </div>
             @endif
 
-            <div class="text-red-400 text-2xl text-center">
-                Vortexcasts
+            <div class="text-center" id="app">
+                <h1 class="text-red-400 text-2xl">Vortexcasts</h1>
             </div>
 
             <example-component></example-component>
