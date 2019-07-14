@@ -56,7 +56,7 @@
             @endif
 
             <div class="text-red-400 text-2xl text-center">
-                VortexCasts
+                Vortexcasts
             </div>
 
             <example-component></example-component>
