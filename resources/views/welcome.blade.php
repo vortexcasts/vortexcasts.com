@@ -39,7 +39,7 @@
           gtag('config', 'UA-143821862-1');
         </script>
     </head>
-    <body>
+    <body class="leading-normal text-gray-800">
         <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
                 <div class="top-right links">
@@ -56,7 +56,7 @@
             @endif
 
             <div class="text-center" id="app">
-                <h1 class="text-red-400 text-2xl">Vortexcasts</h1>
+                <h1 class="text-red-400 text-3xl"><img src="/images/logo.png" style="height:80px;width:80px;"/>Vortexcasts</h1>
             </div>
 
             <example-component></example-component>
