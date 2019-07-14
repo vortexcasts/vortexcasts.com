@@ -12,8 +12,8 @@
         <meta name="theme-color" content="#ffffff">
 
         <title>VortexCasts</title>
-        <link rel="stylesheet" type="text/css" href="{{ asset('css/app.css') }}"/>
-        <script src="{{ asset('js/app.js') }}"></script>
+        <link rel="stylesheet" type="text/css" href="{{ secure_asset('css/app.css') }}"/>
+        <script src="{{ secure_asset('js/app.js') }}"></script>
 
         <!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-143821862-1"></script>
