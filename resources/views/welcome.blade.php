@@ -10,7 +10,7 @@
         <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#ef961d">
         <meta name="msapplication-TileColor" content="#da532c">
         <meta name="theme-color" content="#ffffff">
-
+        <meta name="csrf-token" content="{{ csrf_token() }}">
         <title>VortexCasts</title>
         <link rel="stylesheet" type="text/css" href="{{ secure_asset('css/app.css') }}"/>
         <script src="{{ secure_asset('js/app.js') }}"></script>
