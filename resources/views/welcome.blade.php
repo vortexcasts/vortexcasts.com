@@ -16,14 +16,14 @@
         <script src="{{ secure_asset('js/app.js') }}"></script>
 
         <!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-143821862-1"></script>
-	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-143821862-1"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
 
-	  gtag('config', 'UA-143821862-1');
-	</script>
+          gtag('config', 'UA-143821862-1');
+        </script>
     </head>
     <body>
         <div class="flex-center position-ref full-height" id="app">
@@ -44,6 +44,8 @@
             <div class="text-red-400 text-2xl text-center">
                 VortexCasts
             </div>
+
+            <example-component></example-component>
         </div>
     </body>
 </html>
