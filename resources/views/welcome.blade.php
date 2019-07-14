@@ -3,6 +3,18 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta property="og:site_name" content="Vortexcasts">
+        <meta property="og:title" content="Vortexcasts">
+        <meta property="og:description" content="Improve your skills & life with screencasts on all aspects of development, devops, sysadmin, productivity & more">
+        <meta property="og:type" content="article">
+        <meta property="og:url" content="https://vortexcasts.com">
+        <meta property="og:image" content="https://vortexcasts.com/images/og-card.png">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:site" content="@vortex_casts">
+        <meta name="twitter:title" content="Vortexcasts">
+        <meta name="twitter:description" content="Improve your skills & life with screencasts on all aspects of development, devops, sysadmin, productivity & more">
+        <meta name="twitter:image" content="https://vortexcasts.com/images/og-card.png">
+
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -11,7 +23,9 @@
         <meta name="msapplication-TileColor" content="#da532c">
         <meta name="theme-color" content="#ffffff">
         <meta name="csrf-token" content="{{ csrf_token() }}">
-        <title>VortexCasts</title>
+        <link rel="canonical" href="https://vortexcasts.com/" />
+        <meta name="description" content="Improve your skills & life with screencasts on all aspects of development, devops, sysadmin, productivity & more">
+        <title>Get better everyday | Vortexcasts</title>
         <link rel="stylesheet" type="text/css" href="{{ secure_asset('css/app.css') }}"/>
         <script src="{{ secure_asset('js/app.js') }}"></script>
 
